@@ -60,6 +60,24 @@ body {
     display: block;
 }
 
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo {
+    display: none;
+}
+
+.aba-conteudo-titulo-principal {
+    font-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario {
+     text-align: center;
+     color: var(--verde);
+     text-transform: uppercase;
+}
 @media screen and (min-width:768px) {
     .botoes{
         display: flex;
@@ -72,7 +90,7 @@ body {
         border: 0 0 40px 40px;
     }
     
-    .ativo {
+    .botao.ativo {
         background-color: var(--botao-ativo);
         border-bottom: 4px solid var(--verde);
     }
